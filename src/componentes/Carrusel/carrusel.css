@@ -1,16 +1,17 @@
 
 .divCarrusel{
- width: 20%;
+ width: 100%;
   
 } 
 .imgCarrusel{
 border: solid 4px blue;
 height: 20%;
-width: 1250px;
+width: 100%;
 } 
 .imagen{
-  width: 500px;
+  width: 100%;
   height: 500px;
+  border-radius: 0;
 }
 
 
