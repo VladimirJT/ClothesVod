@@ -19,12 +19,12 @@ ul{
 }
 .contenedor{
     position: relative;
-    padding: 20px 100px;
-    margin: 2%;
     background: black;
     display: flex;
     color: black;
     width: 100%;
+    border-bottom: 1px solid white;
+    margin-right:0 ;
 }
 form{
     height: 18%;
