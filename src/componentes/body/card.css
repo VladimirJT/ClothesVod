@@ -1,0 +1,62 @@
+.divCards{
+    display: flex;
+    margin: 2%;
+    padding: 2%;
+    flex-flow: row wrap;    
+}
+.card2{
+    border-radius: 5px;
+    padding: 1%;
+    height: max-content;
+    margin: 5px;
+    width: 19%;
+    transition: transform 0.5s;
+}
+.card2:hover{
+    transform: scale(1.1);
+}
+img{
+    border-radius: 9px;
+    width: 90%;
+    margin: auto;
+    display: block;    
+}
+.card2 h5{
+    text-align: center;
+}
+.card2 p{
+    text-align: justify;
+}
+.card2 button{
+    /* para centrar el botón */
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.button {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 30px;
+  }
+  
+  .button:hover {
+    background-color: gray; /* Green */
+  }
+.nav-item{
+    color: white;
+    transform: translateX(-8%);
+    padding: 20px 30px;
+    
+}
+::marker{
+    color: white;
+}

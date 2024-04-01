@@ -1,0 +1,24 @@
+p {
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: solid 2px green; */
+}
+h6{
+    color: black;
+    /* border: solid 2px red; */
+}
+.facebook{
+    color:blue ;
+    padding: 2px;
+}
+.google{
+    color:black;
+    padding: 2px;
+}
+.linkedin{
+    color: cornflowerblue;
+    padding: 2px;
+}
+.github{
+    color: black;
+}

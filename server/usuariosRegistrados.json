@@ -1,0 +1,33 @@
+  [
+    {
+        "id": 1,
+        "nombres": "juan",
+        "apellidos": "lopez",
+        "email": "juanchito@gmail.com",
+        "direccion": "mz 4 casa 15 cuba 3",
+        "telefono": "1234567890",
+        "password": "Abc123\"#$",
+        "fecha_creación": "2024-03-05T02:50:12.366Z"
+    },
+    {
+        "id": 2,
+        "nombres": "pepito",
+        "apellidos": "pérez",
+        "email": "pepito@gmail.com",
+        "direccion": "casa 34 call45 transversal",
+        "telefono": "1234567890",
+        "password": "Abc123\"#$",
+        "fecha_creación": "2024-03-05T02:52:20.606Z"
+    },
+    {
+        "id": 3,
+        "nombres": "juan",
+        "apellidos": "lopez",
+        "email": "juan@gmail.com",
+        "direccion": "mz 4 cs 45 fdffdfdfd",
+        "telefono": "1234569874",
+        "password": "Abc1234\"#$",
+        "fecha_creación": "2024-03-06T00:36:43.356Z"
+    }
+]
+

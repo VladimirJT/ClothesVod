@@ -1,0 +1,59 @@
+.logo{
+    position: relative; /* Añadido para posicionar el logo */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    max-width: 300px; /* ajusta según tu preferencia */
+    margin: 10px;
+    width: 15%;
+}
+
+ul{
+    margin-left: 40px;
+    font-family: Arial, sans-serif;
+    color: black;
+    border: solid 2px blue;
+}
+.contenedor{
+    position: relative;
+    padding: 20px 100px;
+    margin: 2%;
+    background: black;
+    display: flex;
+    border-radius: 10px;
+    color: black;
+}
+form{
+    height: 18%;
+    margin: 3%;
+}
+.nav-item{
+    color: black;
+}
+.navbar{
+    background-color: #ccc;
+    border-radius: 20px;
+    border: solid 2px blue;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    /* Estilos que deseas aplicar */
+    display: flex;
+    align-items: center;
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+  }
+.d-flex{
+    position: relative;
+    padding:2px 20px;
+    margin-left: auto;
+    border: solid 2px yellow;
+}
