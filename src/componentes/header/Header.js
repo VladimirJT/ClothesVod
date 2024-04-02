@@ -24,7 +24,7 @@ function Header() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Inico<span className="sr-only"></span></a>
+                            <a className="nav-link" href="#">Inicio<span className="sr-only"></span></a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">Tutoriales</a>
