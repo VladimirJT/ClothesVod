@@ -2,28 +2,29 @@
     position: relative; /* Añadido para posicionar el logo */
     display: flex;
     flex-direction: column;
-    border: 1px solid #ccc;
+    /* border: 1px solid #33383b; */
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease;
-    max-width: 300px; /* ajusta según tu preferencia */
-    margin: 10px;
-    width: 15%;
+    max-width: 200px; /* ajusta según tu preferencia */
+    margin: 5px;
+    width: 10%;
+    
 }
 
 ul{
     margin-left: 40px;
     font-family: Arial, sans-serif;
     color: black;
-    border: solid 2px blue;
 }
 .contenedor{
     position: relative;
     background: black;
     display: flex;
+    justify-content: center;
     color: black;
     width: 100%;
-    border-bottom: 1px solid white;
+    border-bottom: 50px solid #33383b;
     margin-right:0 ;
 }
 form{
@@ -31,14 +32,14 @@ form{
     margin: 3%;
 }
 .nav-item{
-    color: black;
+    
+    
 }
 .navbar{
-    background-color: #ccc;
-    border: solid 2px blue;
-    border: 1px solid #ccc;
+    background-color: black;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease;
+    
 }
 ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
     /* Estilos que deseas aplicar */
@@ -47,10 +48,14 @@ ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
     font-family: "Mulish", sans-serif;
     font-size: 18px;
     font-weight: 100;
+    
   }
 .d-flex{
     position: relative;
     padding:2px 20px;
     margin-left: auto;
-    border: solid 2px yellow;
+    /* border: solid 2px yellow; */
+}
+.nav-link {
+    color: aliceblue !important;
 }

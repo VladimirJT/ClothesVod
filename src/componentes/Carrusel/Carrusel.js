@@ -18,7 +18,7 @@ function Carrusel() {
         slidesToScroll: 1
     };
     return (
-        <div className='container-fluid p-0 m-0'>
+        <div className='container-fluid p-0'>
 
             <Slider {...settings}>
 
@@ -29,7 +29,6 @@ function Carrusel() {
                         </div>
                     )
                 })}
-
             </Slider>
         </div>
 
