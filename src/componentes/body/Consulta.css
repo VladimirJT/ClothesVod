@@ -1,0 +1,39 @@
+.item-container {
+  display: flex;
+  align-items: center;
+  margin: 20px; /* Margen para separar el contenido del borde del contenedor */
+  border: 1px solid #ccc; /* Borde alrededor del contenedor */
+  border-radius: 5px; /* Borde redondeado */
+  padding: 10px; /* Espaciado interno */
+}
+
+.img-container {
+  flex: 1; /* La imagen ocupará un tercio del espacio */
+  margin-right: 20px; /* Espacio entre la imagen y los detalles */
+}
+
+.img-container img {
+  max-width: 300px; /* Tamaño máximo de la imagen */
+  width: 100%;
+  border-radius: 5px;
+}
+
+.details-container {
+  flex: 2; /* Los detalles ocuparán dos tercios del espacio */
+}
+
+.details-container h2 {
+  margin-top: 0; /* Elimina el margen superior del título */
+}
+.related-images {
+  display: flex;
+  justify-content:center;
+  margin-top: 30px; /* Espacio superior */
+}
+
+.related-image {
+  max-width: 200px; /* Tamaño máximo */
+  width: 100%;
+  height: auto; /* Mantiene la proporción */
+  margin-right: 10px; /* Espacio a la derecha de cada imagen */
+}

@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import GoogleIcon from '@mui/icons-material/Google';
 import FacebookIcon from '@mui/icons-material/Facebook';
-import Header from './header/Header'
-import Footer from './footer/Footer';
 import Cookies from 'universal-cookie' //https://www.npmjs.com/package/universal-cookie
 import Swal from 'sweetalert2';
+import './StyleLogin.css';
+import Footer from './footer/Footer';
 
 const Login = () => {
 
@@ -98,27 +98,30 @@ const Login = () => {
 
     return (
         <div>
-            <Header />
-            <form onSubmit={iniciarSesion} >
-                <section className="vh-100 bg-primary">
+           
+            <form className='DetalleBack m-0' onSubmit={iniciarSesion} >
+                <section className="">
                     <div className="container py-5 h-100">
                         <div className="row d-flex justify-content-center align-items-center h-100">
-                            <div className="col-12 col-md-8 col-lg-6 col-xl-5">
-                                <div className="card shadow-2-strong rounded" >
-                                    <div className="card-body p-5 text-center">
+                            <div className="col-12 col-md-8 col-lg-6 col-xl-5"id='form'>
+                                <div className="card shadow-2-strong rounded" id='Detalle1' >
+                                    <div className="card-body p-5 text-center" id='Detalle2'>
 
                                         <h3 className="mb-5">Sign in</h3>
 
                                         <div className="form-outline mb-4">
-                                            <label className="form-label" for="typeEmailX-2">Email</label>
-                                            <input type="email" id="typeEmailX-2" className="form-control form-control-lg" name='email' onChange={handleChange} onClick={handleClickEmail}/>
-                                            {errorEmail ? <p>Debe ingresar un email</p> : ""}
+                                            <label className="form-label" for="typeEmailX-2"></label>
+                                            <input placeholder='Email' type="email" id="typeEmailX-2" className="form-control form-control-lg" name='email' onChange={handleChange} onClick={handleClickEmail}/>
+                                            {errorEmail ? <p style={{ color: '#ffff', fontFamily: 'source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace' }}>Debe ingresar un correo</p> : ""}
+
                                         </div>
 
                                         <div className="form-outline mb-4">
-                                            <label className="form-label" for="typePasswordX-2">Password</label>
-                                            <input type="password" id="typePasswordX-2" className="form-control form-control-lg" name='password' onChange={handleChange} onClick={handleClickPassword}/>
-                                            {errorPassword ? <p>Debe ingresar una contraseña</p> : ""}
+                                            <label className="form-label" for="typePasswordX-2"></label>
+                                            <input placeholder='Password' type="password" id="typePasswordX-2" className="form-control form-control-lg" name='password' onChange={handleChange} onClick={handleClickPassword}/>
+                                            {errorPassword ? <p style={{ color: '#ffff',fontFamily: 'source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace' }}>Debe ingresar una contraseña</p> : ""}
+
+
                                         </div>
 
                                         {/*  <!-- Checkbox --> */}
@@ -146,7 +149,7 @@ const Login = () => {
                     </div>
                 </section>
             </form>
-            <Footer />
+            <footer/>
         </div>
     );
 }

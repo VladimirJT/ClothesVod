@@ -58,5 +58,53 @@
         "password": "Abc1234#$",
         "estado": "activo",
         "fecha_creación": "2024-03-10T16:41:01.702Z"
+    },
+    {
+        "id": 6,
+        "identificacion": "1032509790",
+        "nombres": "Vladimir jose",
+        "apellidos": "Torrealba Agreda",
+        "email": "Vladimirjosetorrealba@gmail.com",
+        "direccion": "calle 45 carrera 465",
+        "telefono": "3103701136",
+        "password": "1032509790Vladimir!",
+        "estado": "activo",
+        "fecha_creación": "2024-04-24T20:35:10.713Z"
+    },
+    {
+        "id": 7,
+        "identificacion": "1032509790",
+        "nombres": "Jose Andres",
+        "apellidos": "Torrealba Vivas",
+        "email": "josetorrealbavivas19@gmail.com",
+        "direccion": "calle 20 con 18 bis",
+        "telefono": "3103701136",
+        "password": "1032509790Vladimir!",
+        "estado": "activo",
+        "fecha_creación": "2024-04-25T04:55:22.508Z"
+    },
+    {
+        "id": 8,
+        "identificacion": "1032509792",
+        "nombres": "yoyo",
+        "apellidos": "Torrealba Vivas",
+        "email": "marlyvladimirtyler@hotmail.com",
+        "direccion": "calle 20 con 48",
+        "telefono": "3103701138",
+        "password": "1032509790Vladimir!",
+        "estado": "activo",
+        "fecha_creación": "2024-05-07T03:52:03.749Z"
+    },
+    {
+        "id": 9,
+        "identificacion": "1032509790",
+        "nombres": "Vladimiro",
+        "apellidos": "Torrealba ",
+        "email": "Vladimiro@hotmail.com",
+        "direccion": "calle 45 carrera 423",
+        "telefono": "3103701137",
+        "password": "30560138Vladimir!",
+        "estado": "activo",
+        "fecha_creación": "2024-05-08T18:51:08.565Z"
     }
 ]

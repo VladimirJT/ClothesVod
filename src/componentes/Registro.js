@@ -172,7 +172,7 @@ export default function Registro() {
 
 
 
-                                    <div className="form-outline mb-4">
+                                    <div className="form-outline mb-3">
 
                                         <label className="form-label" htmlFor="form3Example1cg" >Identificación</label>
                                         <input type="number" id="form3Example0cg" className="form-control" name='identificacion' placeholder='Deber estar entre 5 y 10 dígitos' onChange={handleChange} onClick={idError} />
@@ -180,7 +180,7 @@ export default function Registro() {
 
                                     </div>
 
-                                    <div className="form-outline mb-4">
+                                    <div className="form-outline mb-3">
 
                                         <label className="form-label" htmlFor="form3Example1cg" >Nombre</label>
                                         <input type="text" id="form3Example1cg" className="form-control" name='nombres' placeholder='Debe ser de mínimo tres caracteres' onChange={handleChange} onClick={nombreError} />
@@ -188,41 +188,41 @@ export default function Registro() {
 
                                     </div>
 
-                                    <div className="form-outline mb-4">
+                                    <div className="form-outline mb-3">
                                         <label className="form-label" htmlFor="form3Example1cg">Apellido</label>
                                         <input type="text" id="form3Example2cg" className="form-control form-control-lg" name='apellidos' placeholder='Debe ser de mínimo tres caracteres' onChange={handleChange} onClick={apelliError} />
                                         {apellidoError ? <p>El apellido debe contener mínimo 3 caracteres</p> : ""}
 
                                     </div>
 
-                                    <div className="form-outline mb-4">
+                                    <div className="form-outline mb-3">
                                         <label className="form-label" htmlFor="form3Example3cg">Email</label>
                                         <input type="text" id="form3Example3cg" className="form-control form-control-lg" name='email' placeholder='Debe ser un formato válido. Ejemplo: alguien@gmail.com' onChange={handleChange} onClick={errorEmail} />
                                         {emailError ? <p>El email debe tener la estructura de una dirección de correo electrónico. Verbigracia: alguien@gmail.com</p> : ""}
                                         {emailErrorVacio ? <p>Debe introducir una dirección de correo electrónico.</p> : ""}
                                     </div>
 
-                                    <div className="form-outline mb-4">
+                                    <div className="form-outline mb-3">
                                         <label className="form-label" htmlFor="form3Example3cg">Dirección</label>
                                         <input type="text" id="form3Example4cg" className="form-control form-control-lg" name='direccion' placeholder='Debe ser de mínimo quince caracteres' onChange={handleChange} onClick={dirError} />
                                         {direccionError ? <p>La dirección debe contener mínimo 15 caracteres</p> : ""}
 
                                     </div>
 
-                                    <div className="form-outline mb-4">
+                                    <div className="form-outline mb-3">
                                         <label className="form-label" htmlFor="form3Example3cg">Teléfono</label>
                                         <input type="number" id="form3Example5cg" className="form-control form-control-lg" name='telefono' placeholder='Debe ser de diez números' onChange={handleChange} onClick={telError} />
                                         {telefonoError ? <p>El teléfono debe ser de 10 números</p> : ""}
                                     </div>
 
 
-                                    <div className="form-outline mb-4">
+                                    <div className="form-outline mb-3">
                                         <label className="form-label" htmlFor="form3Example4cg">Password</label>
                                         <input type="password" id="form3Example6cg" className="form-control form-control-lg" name='password' onChange={handleChange} onClick={passError} />
                                         {passwordError ? <p>La contraseña no cumple con los requisitos mínimos solicitados(Mínimo 8 caracteres de longitud. Almenos una letra mayúscula. Almenos una letra minúscula. Almenos un número. Almenos un caracter especial).</p> : ""}
                                     </div>
 
-                                    <div className="form-outline mb-4">
+                                    <div className="form-outline mb-3">
                                         <label className="form-label" htmlFor="form3Example4cdg">Repeat your password</label>
                                         <input type="password" id="form3Example4cdg" className="form-control form-control-lg" name='passRepeat' onChange={handleChange} onClick={passRepeat} />
                                         {passComparacion ? <p>Las contraseñas ingresadas no coinciden</p> : ""}
@@ -236,13 +236,12 @@ export default function Registro() {
                                             I agree all statements in <a href="#!" className="text-body"><u>Terms of service</u></a>
                                         </label>
                                     </div> */}
-
                                     <div className="d-flex justify-content-center">
                                         <button type='submit' className="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Register</button>
                                     </div>
-                                   
+                                    
                                         <p className="text-center text-muted mt-5 mb-0">Have already an account? <a href="#!" className="fw-bold text-body"><u><Link to='/login'>Login here </Link></u></a></p>
-                                   
+
 
 
 

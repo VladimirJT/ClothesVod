@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import CardList from './body/CardList';
-import Header from './header/Header'
+import Header from './header/Header';
 import Footer from './footer/Footer';
 import Carrusel from './Carrusel/Carrusel';
 
@@ -15,4 +15,4 @@ function Inicio() {
     )
 }
 
-export default Inicio
+export default Inicio;

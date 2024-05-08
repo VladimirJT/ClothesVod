@@ -1,0 +1,40 @@
+.DetalleBack{
+    height: 939px;
+    position: relative;
+    background: url(wallhaven-kxvz9q_1920x1080.png);
+    background-size: cover;
+    align-items: center;
+}
+
+#Detalle1{
+border: 1px solid #ffff;
+background-color: transparent;
+backdrop-filter: blur(0.4rem);
+align-items: center;
+font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+font-size: bold;
+}
+
+.form-control::placeholder {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    color: #999; 
+    font-style: italic;
+    
+}
+h3.mb-5 {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    font-size: 40px;
+    color: white
+}  
+#form {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100vh;
+    width: 46rem; /* Establecer la altura del contenedor al 100% de la altura de la ventana */
+    height: 48rem;
+    width: 750px; /* Ancho del cuadro de inicio de sesión */
+}  

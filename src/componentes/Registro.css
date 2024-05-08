@@ -1,24 +1,55 @@
-p {
-    color: black;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* border: solid 2px green; */
+/* Clases CSS para estilizar el formulario */
+.formulario-container {
+    background-image: url('wallhaven-kxvz9q_1920x1080.png'); /* Reemplaza 'wallhaven-kxvz9q_1920x1080.png' con la URL de tu imagen */
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 3rem;
 }
-h6{
-    color: black;
-    /* border: solid 2px red; */
+
+.form-outline {
+    position: relative;
+    margin-bottom: 1.5rem;
 }
-.facebook{
-    color:blue ;
-    padding: 2px;
+
+.form-label {
+    font-size: 1rem;
+    font-weight: bold;
 }
-.google{
-    color:black;
-    padding: 2px;
+
+.form-control {
+    border-radius: 10px;
 }
-.linkedin{
-    color: cornflowerblue;
-    padding: 2px;
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
 }
-.github{
-    color: black;
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
 }
+
+.gradient-custom-4 {
+    background: linear-gradient(45deg, #4e4376, #2b5876);
+    border: none;
+}
+
+.gradient-custom-4:hover {
+    background: linear-gradient(45deg, #2b5876, #4e4376);
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+.text-muted a {
+    color: #6c757d;
+}
+
+.text-muted a:hover {
+    color: #555;
+}
+

@@ -1,19 +1,36 @@
-import React, { useEffect, useContext } from "react";
-import './header.css';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Cookies from "universal-cookie"; //https://www.npmjs.com/package/universal-cookie
-import { dataContext } from "../context/DataContext";
+import './header/header.css';
+import logo from './logo.png';
+import Cookie from 'js-cookie';
+import Swal from 'sweetalert2';
 
-const cookies = new Cookies();
 
-function Header() {
-    const { librosDelCarrito } = useContext(dataContext);
+function HeaderSession() {
+    const [email, setEmail] = useState('');
 
     useEffect(() => {
-    if (cookies.get("email")) {
-        window.location.hash = "/sesion";
-    }
-    });
+        const userEmail = Cookie.get('email');
+        if (userEmail) {
+            setEmail(userEmail);
+        }
+    }, []);
+
+    const cerrarSesion = () => {
+        Swal.fire({
+            title: "¿Está seguro que desea cerrar la sesión?",
+            icon: "question",
+            buttons: true,
+            dangerMode: true,
+            showCancelButton: true,
+        })
+            .then((result) => {
+                if (result.isConfirmed) {
+                    Cookie.remove('email', { path: "/" });
+                    window.location.hash = '/login';
+                }
+            });
+    };
 
     return (
         <div className='contenedor p-0 m-0'>
@@ -41,30 +58,24 @@ function Header() {
                         <li className="nav-item">
                             <a className="nav-link" href="#">Contacto</a>
                         </li>
-                        <li className="nav-item">
-                            <Link to='/registro' className="nav-link">
-                                Registrarse
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to='/usuarios-registrados' className="nav-link">
-                                Ver usuarios
-                            </Link>
-                        </li>
-                        <li className="nav-item" class="btn">
-                            <Link to='/login' className="nav-link login">
-                                Iniciar sesión
-                            </Link>
-                        </li>
+                        {/* Mostrar el email del usuario si está disponible */}
+                        {email && (
+                            <li className="nav-item">
+                                <span className="nav-link">Bienvenido {email}</span>
+                            </li>
+                        )}
+                        {/* Agregar botón para cerrar sesión */}
+                        {email && (
+                            <li className="nav-item">
+                                <button className="nav-link btn btn-link" onClick={cerrarSesion}>Cerrar sesión</button>
+                            </li>
+                            
+                        )}
                     </ul>
-                    <Link to="/carrito">
-                    <h2>🛒{librosDelCarrito.length}</h2>{" "}
-                    {/* Para insertar este tipo de íconos, instalamos la extensión "emojisense" y en Linux presionamos ctr + i para insertar uno */}
-                    </Link>
                 </div>
             </nav>
     </div>
     );
 }
 
-export default Header;
+export default HeaderSession;

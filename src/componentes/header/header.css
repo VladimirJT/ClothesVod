@@ -1,3 +1,15 @@
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    padding: 0 5%;
+    height: 100%;
+}
 .logo{
     position: relative; /* Añadido para posicionar el logo */
     display: flex;
@@ -10,7 +22,9 @@
     margin: 5px;
     width: 10%;
     
+    
 }
+
 
 ul{
     margin-left: 40px;
@@ -24,7 +38,6 @@ ul{
     justify-content: center;
     color: black;
     width: 100%;
-    border-bottom: 50px solid #33383b;
     margin-right:0 ;
 }
 form{
@@ -39,7 +52,7 @@ form{
     background-color: black;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease;
-    
+    z-index: 9999; 
 }
 ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
     /* Estilos que deseas aplicar */
@@ -48,6 +61,10 @@ ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
     font-family: "Mulish", sans-serif;
     font-size: 18px;
     font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     
   }
 .d-flex{
@@ -58,4 +75,26 @@ ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
 }
 .nav-link {
     color: aliceblue !important;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
 }
+.nav-link:hover{
+    color:rgb(122, 122, 122) ;
+}
+.nav-link.login:hover {
+    color: aliceblue;
+}
+.btn{
+    padding: 10px 24px;
+    border-radius: 30px;
+    background-color:rgb(48, 48, 48);
+    color: aliceblue !important;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(122, 122, 122);
+}
+
