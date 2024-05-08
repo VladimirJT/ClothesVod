@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d5db67c3.css",
+    "main.js": "/static/js/main.ccd120ef.js",
+    "static/media/wallhaven-kxvz9q_1920x1080.png": "/static/media/wallhaven-kxvz9q_1920x1080.95a040c5de88e1a70877.png",
+    "static/media/SueterAngel.jpeg": "/static/media/SueterAngel.c86497b3ace1fd5c1607.jpeg",
+    "static/media/SueterRoseW.jpeg": "/static/media/SueterRoseW.f49dac7f6998cbb013fb.jpeg",
+    "static/media/SudaderaBW.jpeg": "/static/media/SudaderaBW.773604e5b6d6002e54c6.jpeg",
+    "static/media/SueterN.jpeg": "/static/media/SueterN.7924f07cc4128c8e6a3a.jpeg",
+    "static/media/SudaderaMN.jpeg": "/static/media/SudaderaMN.f2b0491fb075c167e51b.jpeg",
+    "static/media/SudaderaWhite.jpeg": "/static/media/SudaderaWhite.321f1cda1a7f3c066291.jpeg",
+    "static/media/SueterBoston.jpeg": "/static/media/SueterBoston.5f27653f93b953508d61.jpeg",
+    "static/media/SudaderaDragon.jpeg": "/static/media/SudaderaDragon.e4f8177766b3a38160b9.jpeg",
+    "static/media/SudaderaBrown.jpeg": "/static/media/SudaderaBrown.b8f39f6b582e03a9d186.jpeg",
+    "static/media/SudaderaC.jpeg": "/static/media/SudaderaC.eae33bfb92e6b5790a0c.jpeg",
+    "static/media/SudaderaCardigan.jpeg": "/static/media/SudaderaCardigan.50acc08331449a8b7f54.jpeg",
+    "static/media/SueterM.jpeg": "/static/media/SueterM.40665b28f1db9cf55b06.jpeg",
+    "static/media/SudaderaTokyo.jpeg": "/static/media/SudaderaTokyo.dd6c5bb4c36e87079462.jpeg",
+    "static/media/SudaderaClean.jpeg": "/static/media/SudaderaClean.4074818f960e0373d160.jpeg",
+    "static/media/SudaderaLoto.jpeg": "/static/media/SudaderaLoto.5943cf65d5794b559f5e.jpeg",
+    "static/media/Mark1.jpeg": "/static/media/Mark1.cfbd326bfab42b03db34.jpeg",
+    "static/media/mark4.jpeg": "/static/media/mark4.5d4c719df6674c4c572e.jpeg",
+    "static/media/mark3.jpeg": "/static/media/mark3.21d6faddc352ff17b77a.jpeg",
+    "static/media/mark6.jpeg": "/static/media/mark6.c00ba5a532f0f0e337fc.jpeg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.d5db67c3.css.map": "/static/css/main.d5db67c3.css.map",
+    "main.ccd120ef.js.map": "/static/js/main.ccd120ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5db67c3.css",
+    "static/js/main.ccd120ef.js"
+  ]
+}
