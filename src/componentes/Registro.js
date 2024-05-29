@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 
 
 export default function Registro() {
+    
     let URL = process.env.REACT_APP_ENVIRONMENT
 
     const [identificacionError, setIdentificacionError] = useState(false)
