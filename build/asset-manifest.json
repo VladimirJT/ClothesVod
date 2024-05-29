@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d5db67c3.css",
-    "main.js": "/static/js/main.ccd120ef.js",
+    "main.css": "/static/css/main.3ce17580.css",
+    "main.js": "/static/js/main.b6cdba62.js",
     "static/media/wallhaven-kxvz9q_1920x1080.png": "/static/media/wallhaven-kxvz9q_1920x1080.95a040c5de88e1a70877.png",
     "static/media/SueterAngel.jpeg": "/static/media/SueterAngel.c86497b3ace1fd5c1607.jpeg",
     "static/media/SueterRoseW.jpeg": "/static/media/SueterRoseW.f49dac7f6998cbb013fb.jpeg",
@@ -27,11 +27,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.d5db67c3.css.map": "/static/css/main.d5db67c3.css.map",
-    "main.ccd120ef.js.map": "/static/js/main.ccd120ef.js.map"
+    "main.3ce17580.css.map": "/static/css/main.3ce17580.css.map",
+    "main.b6cdba62.js.map": "/static/js/main.b6cdba62.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5db67c3.css",
-    "static/js/main.ccd120ef.js"
+    "static/css/main.3ce17580.css",
+    "static/js/main.b6cdba62.js"
   ]
 }
