@@ -27,7 +27,7 @@ axios(config)
 });
 
 
-const user = require("./controller/userController");
+const user = require("./Controller/userController");
 app.use("/registro-usuario", user.register);
 
 const PORT = 3001;

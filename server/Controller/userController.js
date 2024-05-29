@@ -111,7 +111,7 @@ register: function (req, res) {
     let config = {
     method: "GET",
     maxBodyLength: Infinity,
-    url: 'https://api.jsonbin.io/v3/b/664e4147e41b4d34e4f7d6b2',
+    url: 'https://api.jsonbin.io/v3/b/664e4d51acd3cb34a84c0660',
     headers: { 'Content-Type': 'application/json',
     "X-Master-Key":"$2a$10$t28iPs1RtFfzkfyAwJSY4OEM7uptb.RQDYDYmHYSrYhhmWiDLa5.q" }
     };
@@ -149,7 +149,7 @@ register: function (req, res) {
         }
         console.log("--->>>",result.data.record)
 
-        fetch("https://api.jsonbin.io/v3/b/664e4147e41b4d34e4f7d6b2", {
+        fetch("https://api.jsonbin.io/v3/b/664e4d51acd3cb34a84c0660", {
         method: "PUT",
         headers: { "Content-Type": "Application/json",
         "X-Master-Key":"$2a$10$t28iPs1RtFfzkfyAwJSY4OEM7uptb.RQDYDYmHYSrYhhmWiDLa5.q" },
