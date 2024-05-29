@@ -1,0 +1,91 @@
+/* CarritoContents.css */
+
+/* General Styles */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    background-color: #f8f9fa; /* Light gray background for header */
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.header h3 {
+    font-weight: 500;
+    color: black;
+}
+
+.header button {
+    background-color: #ffc107;
+    border: none;
+    font-size: 1.25rem;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header a h4 {
+    margin-bottom: 0;
+    color: #6c757d;
+    transition: color 0.3s;
+}
+
+.header a h4:hover {
+    color: black;
+}
+
+/* Carrito Elements Styles */
+.cart-elements {
+    margin-bottom: 2rem;
+    background-color: #ffffff; /* White background for cart elements */
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+/* Total Price Styles */
+.total-price {
+    background-color: #e9ecef; /* Slightly darker gray for total price section */
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.total-price .total-label,
+.total-price .total-amount {
+    font-size: 1.25rem;
+}
+
+.total-price .total-amount {
+    text-align: right;
+}
+
+/* Proceed to Pay Button */
+.proceed-to-pay {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.proceed-to-pay button {
+    background-color: #ffc107;
+    border: none;
+    font-size: 1.25rem;
+    padding: 0.75rem 1.5rem;
+    width: 100%;
+}

@@ -106,5 +106,17 @@
         "password": "30560138Vladimir!",
         "estado": "activo",
         "fecha_creación": "2024-05-08T18:51:08.565Z"
+    },
+    {
+        "id": 10,
+        "identificacion": "1032509790",
+        "nombres": "Alan",
+        "apellidos": "brito",
+        "email": "Alanbrito@gmail.com",
+        "direccion": "calle 45 carrera 465",
+        "telefono": "3103701136",
+        "password": "1032509790Vladimir!",
+        "estado": "activo",
+        "fecha_creación": "2024-05-08T21:29:37.196Z"
     }
 ]

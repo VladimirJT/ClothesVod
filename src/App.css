@@ -30,4 +30,52 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+
+.container-custom {
+    max-width: 900px;
+}
+
+.card-custom {
+    border-radius: 1rem;
+}
+
+.card-header-custom {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #e9ecef;
+}
+
+.card-body-custom {
+    padding: 2rem;
+}
+
+.btn-custom {
+    background-color: #ffcc00;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #e6b800;
+}
+
+.total-label {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.total-amount {
+    font-size: 1.25rem;
+    color: #28a745;
+}
+
+.link-custom {
+    text-decoration: none;
+    color: #6c757d;
+}
+
+.link-custom:hover {
+    text-decoration: underline;
+    color: #5a6268;
+}
+
 

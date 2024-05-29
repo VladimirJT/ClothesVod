@@ -32,11 +32,11 @@ function CarritoElements() {
 
         return (
 
-            <section className="h-100" >
-                <div className="container h-100 py-5">
-                    <div className="row d-flex justify-content-center align-items-center h-100">
-                        <div className="col-10">
-                            <div className="card rounded-3 mb-4">
+            <section >
+                <div>
+                    <div>
+                        <div>
+                            <div>
                                 <div className="card-body p-4">
                                     <div className="row d-flex justify-content-between align-items-center">
                                         <div className="col-md-2 col-lg-2 col-xl-2">
@@ -52,7 +52,7 @@ function CarritoElements() {
 
                                         </div>
                                         <div className="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
-                                            <h5 className="mb-0">$ {formatoNumero(libs.precioCarrito)}</h5>
+                                            <h5 className="mb-0">{libs.precio}</h5>
                                         </div>
 
 
