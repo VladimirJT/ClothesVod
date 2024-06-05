@@ -174,9 +174,36 @@ register: function (req, res) {
             }
         })
     })
+},
+login: async function (req, res) {
+    const config = {
+        method: "GET",
+        maxBodyLength: Infinity,
+        url: 'https://api.jsonbin.io/v3/b/664e4d51acd3cb34a84c0660',  // Rellena la URL aquí
+        headers: {
+            'Content-Type': 'application/json',
+            "X-Master-Key": "$2a$10$t28iPs1RtFfzkfyAwJSY4OEM7uptb.RQDYDYmHYSrYhhmWiDLa5.q"  // Rellena la Master Key aquí
+        }
+    };
 
+    try {
+        // Obtener los usuarios desde el servicio remoto
+        const result = await axios(config);
+        const users = result.data.record;
+
+        const usuario = users.find(user => user.email === req.body.email && user.password === req.body.password);
+        if (usuario) {
+            res.status(200).send("Ok");
+        } else {
+            res.status(400).send('Error');
+        }
+    } catch (error) {
+        console.error('Error al procesar el login:', error);
+        res.status(500).send('Error interno del servidor');
+    }
 }
-}
+};
+
 
 
 

@@ -28,7 +28,9 @@ axios(config)
 
 
 const user = require("./Controller/userController");
+
 app.use("/registro-usuario", user.register);
+app.use("/login-user", user.login);
 
 const PORT = 3001;
 app.listen(PORT, () => {

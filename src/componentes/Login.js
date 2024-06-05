@@ -8,6 +8,8 @@ import Footer from './footer/Footer';
 
 const Login = () => {
 
+    let URL = process.env.REACT_APP_ENVIRONMENT
+
     const cookies = new Cookies()
     const [errorEmail, setErrorEmail] = useState(false)
     const [errorPassword, setErrorPassword] = useState(false)
@@ -58,11 +60,19 @@ const Login = () => {
             setErrorEmail(true)
             return
         }
-        fetch("http://localhost:3001/login",{
+        /* fetch("http://localhost:3001/login",{
             method: 'POST',
             headers:{"Content-Type":"Application/json","Acept":"application/json"},
             body:JSON.stringify(values)
-        })
+        }) */
+        console.log("URL---->>",URL)
+    fetch(`${URL}/login-user`, {
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json", "Accept": "application/json"
+    },
+    body: JSON.stringify(values)
+    })
         .then(response => {           
             if(response.status === 200) {
                 cookies.set('email',values.email,{
