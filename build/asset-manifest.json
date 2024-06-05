@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3ce17580.css",
-    "main.js": "/static/js/main.668a764a.js",
+    "main.js": "/static/js/main.51b671fc.js",
     "static/media/wallhaven-kxvz9q_1920x1080.png": "/static/media/wallhaven-kxvz9q_1920x1080.95a040c5de88e1a70877.png",
     "static/media/SueterAngel.jpeg": "/static/media/SueterAngel.c86497b3ace1fd5c1607.jpeg",
     "static/media/SueterRoseW.jpeg": "/static/media/SueterRoseW.f49dac7f6998cbb013fb.jpeg",
@@ -28,10 +28,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.3ce17580.css.map": "/static/css/main.3ce17580.css.map",
-    "main.668a764a.js.map": "/static/js/main.668a764a.js.map"
+    "main.51b671fc.js.map": "/static/js/main.51b671fc.js.map"
   },
   "entrypoints": [
     "static/css/main.3ce17580.css",
-    "static/js/main.668a764a.js"
+    "static/js/main.51b671fc.js"
   ]
 }
