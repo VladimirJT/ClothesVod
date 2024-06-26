@@ -1,5 +1,5 @@
 // controllers/userController.js
-const mysqlConnection = require('../configBD');
+const mysqlConnection = require('../configDB');
 
 const registrarUsuario = (req, res) => {
   const { nombres, apellidos, email, password, celular } = req.body;
