@@ -1,7 +1,7 @@
 // server.js
 const express = require('express');
 const cors = require('cors');
-const { registrarUsuario, iniciarSesion } = require('./controllers/userController');
+const { registrarUsuario, iniciarSesion } = require('./Controller/userController');
 const bodyParser = require('body-parser');
 const path = require('path');
 const axios = require('axios');
