@@ -2,13 +2,13 @@
 const mysqlConnection = require('../configDB');
 
 const registrarUsuario = (req, res) => {
-  const { nombres, apellidos, email, password, celular } = req.body;
-  if (!nombres || !apellidos || !email || !password || !celular) {
+  const { identificacion, nombres, apellidos, email, direccion, password, celular } = req.body;
+  if (!identificacion || !nombres || !apellidos || !email || !direccion || !password || !celular) {
     return res.status(400).json({ error: 'Todos los campos son obligatorios' });
   }
 
-  const query = 'INSERT INTO usuarios (nombres, apellidos, email, password, celular) VALUES (?, ?, ?, ?, ?)';
-  mysqlConnection.query(query, [nombres, apellidos, email, password, celular], (err, result) => {
+  const query = 'INSERT INTO usuarios (identificacion, nombres, apellidos, email, direccion, password, celular) VALUES (?, ?, ?, ?, ?)';
+  mysqlConnection.query(query, [identificacion, nombres, apellidos, email, direccion, password, celular], (err, result) => {
     if (err) {
       console.error('Error al registrar usuario en MySQL:', err);
       return res.status(500).json({ error: 'Error al registrar usuario' });
